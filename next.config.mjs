@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.js
 
-export default nextConfig;
+module.exports = {
+  // Other Next.js config options
+  webpack5: true, // Ensure this is set appropriately based on your Next.js version
+};
